@@ -22,8 +22,10 @@ html {
 }
 
 img {
-	width: 100%;
-    display: block;
+	width: 50%;
+    display:block;
+    padding: 1rem;
+    
 }
 
 body {
@@ -40,6 +42,7 @@ header {
     height: auto;
     float: left;
     margin: 1.5rem; 5%; 
+    size:50%;
 }
 
 .nav-top {
@@ -114,8 +117,8 @@ p {
 }
 
 figcaption {
-    font-size: 1.75rem;
-    margin: .5rem 0 0;
+    font-size: 1.5rem;
+    margin: .5rem 1.5rem 1rem;
     color:white;
     padding: 2;
     text-align:left;
