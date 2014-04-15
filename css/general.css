@@ -25,6 +25,8 @@ img {
 	width:70%;
     display:block;
     padding: 1rem;   
+    float:inherit;
+    margin-left: 3.5rem;
 }
 
 body {
@@ -116,11 +118,11 @@ p {
 }
 
 figcaption {
-    font-size: 1.5rem;
+    font-size: 1.0rem;
     margin: .5rem 1.5rem 1rem;
     color:white;
     padding: 2;
-    text-align:left;
+    text-align:center;
 }
 
 footer {
