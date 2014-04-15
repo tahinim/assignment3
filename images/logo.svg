@@ -2,7 +2,11 @@
 <!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="612px" height="792px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
-<image overflow="visible" width="34" height="41" xlink:href="logo.jpg"  transform="matrix(1 0 0 1 289 375)">
-</image>
+	 width="77.167px" height="63.333px" viewBox="0 0 77.167 63.333" enable-background="new 0 0 77.167 63.333" xml:space="preserve">
+<g>
+	<ellipse cx="26.333" cy="38" rx="26.333" ry="25.333"/>
+	<rect x="18.667" y="0" width="17.333" height="19.333"/>
+	<path fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="10" d="M32,9.667c0,0,34.667-14.812,35.333,24.761"/>
+	<ellipse stroke="#000000" stroke-width="3" stroke-miterlimit="10" cx="68" cy="41.214" rx="7.667" ry="7.786"/>
+</g>
 </svg>
