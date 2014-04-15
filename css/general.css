@@ -22,10 +22,9 @@ html {
 }
 
 img {
-	width: 50%;
+	width:70%;
     display:block;
-    padding: 1rem;
-    
+    padding: 1rem;   
 }
 
 body {
@@ -38,11 +37,11 @@ header {
 }
 
 .logo {
-    width: 3.5rem;
+    width: 5.5rem;
     height: auto;
     float: left;
-    margin: 1.5rem; 5%; 
-    size:50%;
+    margin: 1.5rem; 10%; 
+    
 }
 
 .nav-top {
@@ -131,6 +130,6 @@ footer {
 
 footer p {
     font-size: .75rem;
-    margin: 1.5rem 5% 5rem;
+    margin: 1.0rem 5% 4rem;
     color: white;
 }
