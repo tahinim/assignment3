@@ -69,27 +69,27 @@ header {
     display: inline-block;
     margin: 0;
     padding: 1.5rem 10%;
-    color: white;
+    color: maroon;
     font-size: 1.25rem;
     text-decoration: none;
+    background-color: white;
 }
 
 .billboard {
     overflow: hidden;
-    background-image: url(/Users/suraiyacurrimbhoy/Desktop/INTERACTIVE%20DESIGN%20/github/assignment3/images/mainpic.jpg);
+    background-image: url(../images/mainpic.jpg);
     background-position:center;
     background-repeat: no-repeat;
     background-size: 50rem;
 }
 
-h1 {
+.billboard h1 {
     font-weight:normal;
     text-align:center;
     color:white;
-    padding:.1.5rem 5%;
+    padding: 0;
     font-size: 4.2rem;
-    line-height: 5.75rem;
-    margin:20rem 0 15%;
+    margin: 10rem 0 5rem;
     font-family : Arial,Helvetica,sans-serif;
 }
 
@@ -101,6 +101,34 @@ h2 {
     background-color: black;
     text-align:center;
 }
+
+.bucket1 { 
+    overflow:  hidden;
+    background-color: black; /* Visual Aid */
+}
+
+.bucket1 figure {
+    margin: 0;
+    padding: 0;
+}
+
+.bucket1 a,
+.bucket1 a:link,
+.bucket1 a:visited {
+    float:left;
+    width: 45%;
+    margin: 0 10% 3.5rem 0;
+    padding: 0;
+}
+
+.bucket1 a:nth-child(even) {
+    margin: 0;  
+}
+
+.bucket1 figcaption {
+    background-color:  black; /* Visual Aid */
+}
+
 
 body {
     background-color: black;
@@ -122,7 +150,7 @@ figcaption {
     margin: .5rem 1.5rem 1rem;
     color:white;
     padding: 2;
-    text-align:center;
+    text-align: right;
 }
 
 footer {
@@ -135,3 +163,5 @@ footer p {
     margin: 1.0rem 5% 4rem;
     color: white;
 }
+
+
