@@ -22,11 +22,8 @@ html {
 }
 
 img {
-	width:70%;
+	width:100%;
     display:block;
-    padding: 1rem;   
-    float:inherit;
-    margin-left: 3.5rem;
 }
 
 body {
@@ -75,6 +72,11 @@ header {
     background-color: white;
 }
 
+article {
+    padding: 1.5rem 5%;
+    margin: 0;
+}
+
 .billboard {
     overflow: hidden;
     background-image: url(../images/mainpic.jpg);
@@ -95,16 +97,20 @@ header {
 
 h2 {
     margin: 0 0 2.5rem;
-    padding: 2;
+    padding: 0;
     font-size: 1.75rem;
-    color: white;
-    background-color: black;
     text-align:center;
 }
 
+p {
+    margin: 0 0 2.5rem;
+    padding: 0;
+    color: maroon;
+    line-height: 1.75rem;
+}
+
 .bucket1 { 
-    overflow:  hidden;
-    background-color: black; /* Visual Aid */
+    overflow: hidden;
 }
 
 .bucket1 figure {
@@ -125,32 +131,10 @@ h2 {
     margin: 0;  
 }
 
-.bucket1 figcaption {
-    background-color:  black; /* Visual Aid */
-}
-
-
-body {
-    background-color: black;
-    margin: 0;
-    padding: 0;
-}
-
-p {
-    margin: 0 0 2.5rem;
-    padding: 2;
-    font-size: 1rem;
-    color: maroon;
-    line-height:1.75rem;
-    text-align:center;
-}
-
 figcaption {
     font-size: 1.0rem;
     margin: .5rem 1.5rem 1rem;
-    color:white;
-    padding: 2;
-    text-align: right;
+    padding: 0;
 }
 
 footer {
@@ -162,4 +146,27 @@ footer p {
     font-size: .75rem;
     margin: 1.0rem 5% 4rem;
     color: white;
+}
+
+.bucket2 { 
+    overflow:  hidden;
+    background-color: maroon;
+}
+
+.bucket2 figure {
+    margin: 0;
+    padding: 0;
+}
+
+.bucket2 a,
+.bucket2 a:link,
+.bucket2 a:visited {
+    float:left;
+    width: 30%;
+    margin: 0 5% .25rem ;
+    padding: 0;
+}
+
+.bucket2 a:nth-child(odd) {
+    margin: 0;  
 }
